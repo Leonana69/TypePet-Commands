@@ -1,8 +1,38 @@
 {
   "schemaVersion": 1,
   "indexTag": "main",
-  "generatedAt": "2026-06-08T03:51:23Z",
+  "generatedAt": "2026-06-08T04:33:21Z",
   "commands": [
+    {
+      "id": "asc",
+      "name": "asc",
+      "title": "Arcane Symbol Claim",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Copy \"Arcane Symbol/claim\" to the clipboard.",
+      "kind": "clipboard",
+      "tags": [
+        "maplestory",
+        "clipboard",
+        "macro"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": false,
+      "requiresNetwork": false,
+      "requiresChat": false,
+      "hosts": [],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/asc",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/asc/asc-1.0.0.zip",
+        "bytes": 272,
+        "sha256": "71450bf14539c4ddbfb67e3d4e629e51edf3e5dba63e77001ce2475c36ea20cd",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/asc/asc-1.0.0.zip"
+      }
+    },
     {
       "id": "cheer",
       "name": "cheer",
@@ -33,6 +63,132 @@
       }
     },
     {
+      "id": "esfera",
+      "name": "esfera",
+      "title": "Esfera Guide",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Show the Esfera guide image.",
+      "kind": "image",
+      "tags": [
+        "maplestory",
+        "guide",
+        "image"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": false,
+      "requiresNetwork": false,
+      "requiresChat": false,
+      "hosts": [],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/esfera",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/esfera/esfera-1.0.0.zip",
+        "bytes": 130926,
+        "sha256": "e93843f1bf085760a0f96ba35325d3715ad33d34f6b0c234870f18b4a129f2e3",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/esfera/esfera-1.0.0.zip"
+      }
+    },
+    {
+      "id": "fortune",
+      "name": "fortune",
+      "title": "Daily Fortune",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Have the Maple World oracle read your daily luck (needs the chatbot enabled + configured).",
+      "kind": "prompt",
+      "tags": [
+        "fun",
+        "prompt",
+        "oracle"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": false,
+      "requiresNetwork": false,
+      "requiresChat": true,
+      "hosts": [],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/fortune",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/fortune/fortune-1.0.0.zip",
+        "bytes": 1232,
+        "sha256": "b1bfd3320e891b22194308a96e266d23bfd0879be496dbff751150a55e5782c3",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/fortune/fortune-1.0.0.zip"
+      }
+    },
+    {
+      "id": "maintain",
+      "name": "maintain",
+      "title": "Next Maintenance",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Check the next upcoming MapleStory maintenance (needs the chatbot + Web search on).",
+      "kind": "prompt",
+      "tags": [
+        "maplestory",
+        "prompt",
+        "news"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": false,
+      "requiresNetwork": false,
+      "requiresChat": true,
+      "hosts": [],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/maintain",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/maintain/maintain-1.0.0.zip",
+        "bytes": 905,
+        "sha256": "ccf4a3532cf6627afc25d4a2a2bd6361120f981d58b1aa7b27116132c59dbcf1",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/maintain/maintain-1.0.0.zip"
+      }
+    },
+    {
+      "id": "rank",
+      "name": "rank",
+      "title": "Character Ranking Lookup",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Look up a MapleStory character by server: -na/-eu = GMS (default -na, with a global rank), -kr = KMS, -sea = MSEA, -tw = TMS. Network must be approved in the Commands tab.",
+      "kind": "script",
+      "tags": [
+        "maplestory",
+        "lookup",
+        "script",
+        "network"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": true,
+      "requiresNetwork": true,
+      "requiresChat": false,
+      "hosts": [
+        "nexon.com",
+        "maple.gg",
+        "dakgg.io",
+        "maple-kit.com"
+      ],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/rank",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/rank/rank-1.0.0.zip",
+        "bytes": 6358,
+        "sha256": "a56718c4d7b474982a6d2af47654468750dd1c0ce72c9caa74addd899af1526d",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/rank/rank-1.0.0.zip"
+      }
+    },
+    {
       "id": "roll",
       "name": "roll",
       "title": "Dice Roll",
@@ -60,6 +216,36 @@
         "bytes": 550,
         "sha256": "15e0fa7d3ff7445b79bc420d1520910b87614d301e0f11ec36b7f65cf1eae4c4",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/roll/roll-1.0.0.zip"
+      }
+    },
+    {
+      "id": "ssc",
+      "name": "ssc",
+      "title": "Sacred Symbol Claim",
+      "version": "1.0.0",
+      "author": "leonana69",
+      "license": "GPL-3.0-or-later",
+      "description": "Copy \"Sacred Symbol/claim\" to the clipboard.",
+      "kind": "clipboard",
+      "tags": [
+        "maplestory",
+        "clipboard",
+        "macro"
+      ],
+      "minAppVersion": "1.0.0",
+      "requiresScripting": false,
+      "requiresNetwork": false,
+      "requiresChat": false,
+      "hosts": [],
+      "official": true,
+      "verified": true,
+      "updated": null,
+      "repoPath": "commands/ssc",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/ssc/ssc-1.0.0.zip",
+        "bytes": 272,
+        "sha256": "4d5fc32e8310fad3153daf8c471bf692738b57ab0bcfa68251ded6bb8fc382b0",
+        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/ssc/ssc-1.0.0.zip"
       }
     },
     {

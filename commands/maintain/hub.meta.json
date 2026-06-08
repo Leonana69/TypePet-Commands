@@ -1,0 +1,9 @@
+{
+  "title": "Next Maintenance",
+  "version": "1.0.0",
+  "author": "leonana69",
+  "license": "GPL-3.0-or-later",
+  "tags": ["maplestory", "prompt", "news"],
+  "minAppVersion": "1.0.0",
+  "official": true
+}
