@@ -1,7 +1,9 @@
-name: publish
+name: verify
 
-# On merge to main: regenerate dist/ (index.json + per-command zips + checksums), commit it, and purge
-# the jsDelivr cache so clients see the new catalog. This is the ONLY writer of dist/.
+# On push to main: validate the commands and confirm the committed dist/ is up to date. This workflow
+# does NOT commit or push anything — the maintainer commits the generated dist/ alongside the source (the
+# build is byte-deterministic), so CI never gets ahead of the local branch. If dist/ is stale, CI fails
+# with a clear message instead of silently rewriting it.
 on:
   push:
     branches: [main]
@@ -9,16 +11,13 @@ on:
       - "commands/**"
       - "app-compat/**"
       - "tools/**"
+      - "dist/**"
 
 permissions:
-  contents: write
-
-concurrency:
-  group: publish
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  publish:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,25 +26,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Validate
+      - name: Validate commands
         run: python tools/build_index.py --check
 
-      - name: Build dist
-        run: python tools/build_index.py
-
-      - name: Commit dist
+      - name: Verify dist/ is up to date
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist
-          if git diff --cached --quiet; then
-            echo "No dist changes."
-            exit 0
+          python tools/build_index.py
+          if ! git diff --quiet -- dist; then
+            echo "::error::dist/ is out of date. Run 'python tools/build_index.py' locally and commit the result."
+            git --no-pager diff --stat -- dist
+            exit 1
           fi
-          git commit -m "build: regenerate dist [skip ci]"
-          git push
-
-      - name: Purge jsDelivr cache
-        run: |
-          curl -sf "https://purge.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/index.json"  || true
-          curl -sf "https://purge.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/latest.json" || true
+          echo "dist/ is up to date."

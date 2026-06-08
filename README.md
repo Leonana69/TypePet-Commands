@@ -32,8 +32,9 @@ dist/                             # GENERATED — never hand-edit (index.json + 
 tools/build_index.py              # the generator CI runs
 ```
 
-Everything in `dist/` is produced by `tools/build_index.py` (run by the publish workflow on merge).
-Don't edit it by hand — PRs that touch `dist/` are rejected.
+Everything in `dist/` is produced by `tools/build_index.py` and committed alongside the source (the build
+is byte-deterministic). Don't edit it by hand — run the script. CI verifies `dist/` is up to date on every
+push and fails if it's stale; it never rewrites `dist/` itself, so the remote never gets ahead of you.
 
 ## License
 

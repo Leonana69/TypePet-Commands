@@ -131,7 +131,8 @@ def inject_meta(cmd_text, fm, version, author, meta):
 
 def add_entry(z, arcname, data):
     zi = zipfile.ZipInfo(arcname, date_time=FIXED_DT)
-    zi.compress_type = zipfile.ZIP_DEFLATED
+    zi.compress_type = zipfile.ZIP_STORED   # no zlib -> identical bytes on every platform / zlib version
+    zi.create_system = 3                     # pin (zipfile defaults Windows=0 / Unix=3, which would differ)
     zi.external_attr = 0o644 << 16
     z.writestr(zi, data)
 

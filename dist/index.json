@@ -27,8 +27,8 @@
       "repoPath": "commands/asc",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/asc/asc-1.0.0.zip",
-        "bytes": 272,
-        "sha256": "71450bf14539c4ddbfb67e3d4e629e51edf3e5dba63e77001ce2475c36ea20cd",
+        "bytes": 343,
+        "sha256": "917d4ddc34503a8d42a7447e46a58a8417ec2ff64f5766ee957bf3288e555f6c",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/asc/asc-1.0.0.zip"
       }
     },
@@ -57,8 +57,8 @@
       "repoPath": "commands/esfera",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/esfera/esfera-1.0.0.zip",
-        "bytes": 130926,
-        "sha256": "e93843f1bf085760a0f96ba35325d3715ad33d34f6b0c234870f18b4a129f2e3",
+        "bytes": 130998,
+        "sha256": "5b8f04411f8dc2a57ba0f1da75fd84bb1ebac5bce9f383760c6d56e33bbf85b0",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/esfera/esfera-1.0.0.zip"
       }
     },
@@ -87,8 +87,8 @@
       "repoPath": "commands/fortune",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/fortune/fortune-1.0.0.zip",
-        "bytes": 1232,
-        "sha256": "b1bfd3320e891b22194308a96e266d23bfd0879be496dbff751150a55e5782c3",
+        "bytes": 2163,
+        "sha256": "9c0996dcc18b3c390834a0ddee95fbde2698775da9dd101e9f40c1bc243c745e",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/fortune/fortune-1.0.0.zip"
       }
     },
@@ -117,8 +117,8 @@
       "repoPath": "commands/maintain",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/maintain/maintain-1.0.0.zip",
-        "bytes": 905,
-        "sha256": "ccf4a3532cf6627afc25d4a2a2bd6361120f981d58b1aa7b27116132c59dbcf1",
+        "bytes": 1458,
+        "sha256": "701453811ac4e63235a89a86546882f3e4e05233db5ff549a68f8b08d2bdfa9e",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/maintain/maintain-1.0.0.zip"
       }
     },
@@ -153,8 +153,8 @@
       "repoPath": "commands/rank",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/rank/rank-1.0.0.zip",
-        "bytes": 6358,
-        "sha256": "a56718c4d7b474982a6d2af47654468750dd1c0ce72c9caa74addd899af1526d",
+        "bytes": 16068,
+        "sha256": "64324fdc1f75aea2c3375d502cc384955b0028157c044c3a01f04e99fe11f00c",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/rank/rank-1.0.0.zip"
       }
     },
@@ -183,8 +183,8 @@
       "repoPath": "commands/ssc",
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/ssc/ssc-1.0.0.zip",
-        "bytes": 272,
-        "sha256": "4d5fc32e8310fad3153daf8c471bf692738b57ab0bcfa68251ded6bb8fc382b0",
+        "bytes": 343,
+        "sha256": "82dbbc3204343bad59f647ed8ba10ca15a5a3e9551f3409440e84a49f741829e",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/ssc/ssc-1.0.0.zip"
       }
     }
