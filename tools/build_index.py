@@ -227,10 +227,13 @@ def main():
             "updated": meta.get("updated"),
             "repoPath": f"commands/{slug}",
             "download": {
-                "url": f"https://cdn.jsdelivr.net/gh/{OWNER}/{REPO}@main/dist/{zip_rel}",
+                # Served from GitHub RAW (same source as the index) so the sha256 and the zip bytes always
+                # come from the same commit — no CDN skew. (jsDelivr caches branch URLs for ~12h, so an index
+                # whose sha changed could mismatch a still-cached jsDelivr zip.) jsDelivr is the CDN fallback.
+                "url": f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/dist/{zip_rel}",
                 "bytes": os.path.getsize(zip_abs),
                 "sha256": sha256_file(zip_abs),
-                "fallbackUrl": f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/dist/{zip_rel}",
+                "fallbackUrl": f"https://cdn.jsdelivr.net/gh/{OWNER}/{REPO}@main/dist/{zip_rel}",
             },
         })
         print(f"  built {slug} v{version} [{kind}]")
