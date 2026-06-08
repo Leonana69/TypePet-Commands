@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "indexTag": "main",
-  "generatedAt": "2026-06-08T04:33:21Z",
+  "generatedAt": "2026-06-08T04:35:35Z",
   "commands": [
     {
       "id": "asc",
@@ -29,7 +29,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/asc/asc-1.0.0.zip",
         "bytes": 272,
-        "sha256": "71450bf14539c4ddbfb67e3d4e629e51edf3e5dba63e77001ce2475c36ea20cd",
+        "sha256": "2acddd3b577a011c738347f831b43382bf97f325487eec59131085c842352298",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/asc/asc-1.0.0.zip"
       }
     },
@@ -58,7 +58,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/cheer/cheer-1.0.0.zip",
         "bytes": 348,
-        "sha256": "f2f614290f7929a8ef2896205d3a7cbe53b99e7f5bd8a87f0afdad5dac020a00",
+        "sha256": "d03ad15885c2aef7bc0926f7838ebfc583b85edda580b7e28990058133cafede",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/cheer/cheer-1.0.0.zip"
       }
     },
@@ -88,7 +88,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/esfera/esfera-1.0.0.zip",
         "bytes": 130926,
-        "sha256": "e93843f1bf085760a0f96ba35325d3715ad33d34f6b0c234870f18b4a129f2e3",
+        "sha256": "4c0c22926b92489f0590cf99739d42f4264bd56c697dbea3365f4a6fdf6dab85",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/esfera/esfera-1.0.0.zip"
       }
     },
@@ -118,7 +118,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/fortune/fortune-1.0.0.zip",
         "bytes": 1232,
-        "sha256": "b1bfd3320e891b22194308a96e266d23bfd0879be496dbff751150a55e5782c3",
+        "sha256": "f1a73860994ec6307a52a361e2308c496f43e290c525afe8a0ec1fe25089c373",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/fortune/fortune-1.0.0.zip"
       }
     },
@@ -148,7 +148,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/maintain/maintain-1.0.0.zip",
         "bytes": 905,
-        "sha256": "ccf4a3532cf6627afc25d4a2a2bd6361120f981d58b1aa7b27116132c59dbcf1",
+        "sha256": "711d152d45f252fc5387e6cc80ada3e05cfb56fb767d6e76ca9f01d0d6c64f23",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/maintain/maintain-1.0.0.zip"
       }
     },
@@ -184,7 +184,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/rank/rank-1.0.0.zip",
         "bytes": 6358,
-        "sha256": "a56718c4d7b474982a6d2af47654468750dd1c0ce72c9caa74addd899af1526d",
+        "sha256": "e2232a8bc586dff72bfa76ec872f0a0ee1dedf539986aee658422e3b4af87549",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/rank/rank-1.0.0.zip"
       }
     },
@@ -214,7 +214,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/roll/roll-1.0.0.zip",
         "bytes": 550,
-        "sha256": "15e0fa7d3ff7445b79bc420d1520910b87614d301e0f11ec36b7f65cf1eae4c4",
+        "sha256": "22c3cb3b1f57aeae868aa1bc1bf8de0c305aeb87bf744e05c0831c64ff4571fa",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/roll/roll-1.0.0.zip"
       }
     },
@@ -244,7 +244,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/ssc/ssc-1.0.0.zip",
         "bytes": 272,
-        "sha256": "4d5fc32e8310fad3153daf8c471bf692738b57ab0bcfa68251ded6bb8fc382b0",
+        "sha256": "467cadd72a19a5a3eb1d67e8b72c830d5697fd225c189a508a003fa71cf0a465",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/ssc/ssc-1.0.0.zip"
       }
     },
@@ -273,7 +273,7 @@
       "download": {
         "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/symbols/symbols-1.0.0.zip",
         "bytes": 442,
-        "sha256": "02e2df3d727fea0f3c5fd78b38a79dc0a37331eb9c637fa2efae30b2d9889f54",
+        "sha256": "d026d9e633685273948ae266039a865901e8ec4d883bad351987264b871e7295",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/symbols/symbols-1.0.0.zip"
       }
     }
