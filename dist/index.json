@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "indexTag": "main",
-  "generatedAt": "2026-06-08T04:33:21Z",
+  "generatedAt": "2026-06-08T04:46:45Z",
   "commands": [
     {
       "id": "asc",
@@ -31,35 +31,6 @@
         "bytes": 272,
         "sha256": "71450bf14539c4ddbfb67e3d4e629e51edf3e5dba63e77001ce2475c36ea20cd",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/asc/asc-1.0.0.zip"
-      }
-    },
-    {
-      "id": "cheer",
-      "name": "cheer",
-      "title": "Cheer",
-      "version": "1.0.0",
-      "author": "leonana69",
-      "license": "GPL-3.0-or-later",
-      "description": "The pet does a happy little cheer.",
-      "kind": "pet",
-      "tags": [
-        "fun",
-        "pet"
-      ],
-      "minAppVersion": "1.0.0",
-      "requiresScripting": false,
-      "requiresNetwork": false,
-      "requiresChat": false,
-      "hosts": [],
-      "official": true,
-      "verified": true,
-      "updated": null,
-      "repoPath": "commands/cheer",
-      "download": {
-        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/cheer/cheer-1.0.0.zip",
-        "bytes": 348,
-        "sha256": "f2f614290f7929a8ef2896205d3a7cbe53b99e7f5bd8a87f0afdad5dac020a00",
-        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/cheer/cheer-1.0.0.zip"
       }
     },
     {
@@ -246,35 +217,6 @@
         "bytes": 272,
         "sha256": "4d5fc32e8310fad3153daf8c471bf692738b57ab0bcfa68251ded6bb8fc382b0",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/ssc/ssc-1.0.0.zip"
-      }
-    },
-    {
-      "id": "symbols",
-      "name": "symbols",
-      "title": "Symbol Regions",
-      "version": "1.0.0",
-      "author": "leonana69",
-      "license": "GPL-3.0-or-later",
-      "description": "Copy a list of Arcane River + Grandis symbol regions to paste in chat.",
-      "kind": "clipboard",
-      "tags": [
-        "maplestory",
-        "reference"
-      ],
-      "minAppVersion": "1.0.0",
-      "requiresScripting": false,
-      "requiresNetwork": false,
-      "requiresChat": false,
-      "hosts": [],
-      "official": true,
-      "verified": true,
-      "updated": null,
-      "repoPath": "commands/symbols",
-      "download": {
-        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/symbols/symbols-1.0.0.zip",
-        "bytes": 442,
-        "sha256": "02e2df3d727fea0f3c5fd78b38a79dc0a37331eb9c637fa2efae30b2d9889f54",
-        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/symbols/symbols-1.0.0.zip"
       }
     }
   ]
