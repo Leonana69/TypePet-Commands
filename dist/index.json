@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "indexTag": "main",
-  "generatedAt": "2026-06-08T04:46:45Z",
+  "generatedAt": "2026-06-08T04:48:27Z",
   "commands": [
     {
       "id": "asc",
@@ -157,36 +157,6 @@
         "bytes": 6358,
         "sha256": "a56718c4d7b474982a6d2af47654468750dd1c0ce72c9caa74addd899af1526d",
         "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/rank/rank-1.0.0.zip"
-      }
-    },
-    {
-      "id": "roll",
-      "name": "roll",
-      "title": "Dice Roll",
-      "version": "1.0.0",
-      "author": "leonana69",
-      "license": "GPL-3.0-or-later",
-      "description": "Roll a die (default 6 sides). Example of a sandboxed script command.",
-      "kind": "script",
-      "tags": [
-        "fun",
-        "rng",
-        "script"
-      ],
-      "minAppVersion": "1.0.0",
-      "requiresScripting": true,
-      "requiresNetwork": false,
-      "requiresChat": false,
-      "hosts": [],
-      "official": true,
-      "verified": true,
-      "updated": null,
-      "repoPath": "commands/roll",
-      "download": {
-        "url": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/roll/roll-1.0.0.zip",
-        "bytes": 550,
-        "sha256": "15e0fa7d3ff7445b79bc420d1520910b87614d301e0f11ec36b7f65cf1eae4c4",
-        "fallbackUrl": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/roll/roll-1.0.0.zip"
       }
     },
     {
