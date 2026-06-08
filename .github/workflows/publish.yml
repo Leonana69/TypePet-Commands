@@ -1,0 +1,51 @@
+name: publish
+
+# On merge to main: regenerate dist/ (index.json + per-command zips + checksums), commit it, and purge
+# the jsDelivr cache so clients see the new catalog. This is the ONLY writer of dist/.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "commands/**"
+      - "app-compat/**"
+      - "tools/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate
+        run: python tools/build_index.py --check
+
+      - name: Build dist
+        run: python tools/build_index.py
+
+      - name: Commit dist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist
+          if git diff --cached --quiet; then
+            echo "No dist changes."
+            exit 0
+          fi
+          git commit -m "build: regenerate dist [skip ci]"
+          git push
+
+      - name: Purge jsDelivr cache
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/index.json"  || true
+          curl -sf "https://purge.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/latest.json" || true

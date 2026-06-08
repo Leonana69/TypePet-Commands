@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Leonana69/TypePet-Commands/schema/command.schema.json",
+  "title": "hub.meta.json",
+  "description": "Hub-only metadata that accompanies a command's command.md.",
+  "type": "object",
+  "required": ["version", "author"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string", "maxLength": 80 },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?([-+].*)?$",
+      "description": "Semver. Bump on every change to the command."
+    },
+    "author": { "type": "string", "minLength": 1, "description": "GitHub login (verified on merge)." },
+    "license": { "type": "string", "default": "GPL-3.0-or-later" },
+    "tags": { "type": "array", "items": { "type": "string" }, "maxItems": 12 },
+    "minAppVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+      "description": "Lowest MaplePet version that can run this command."
+    },
+    "official": { "type": "boolean", "default": false },
+    "updated": { "type": "string" }
+  }
+}
