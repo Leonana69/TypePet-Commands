@@ -1,0 +1,14 @@
+# Normalize text to LF in the repo and working tree so the index generator produces byte-identical
+# zips (and stable sha256) on both the Windows checkout and the Linux CI runner.
+*.md     text eol=lf
+*.json   text eol=lf
+*.py     text eol=lf
+*.yml    text eol=lf
+*.txt    text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+*.zip    binary
+*.png    binary
+*.jpg    binary
+*.gif    binary
+*.webp   binary
