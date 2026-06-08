@@ -15,7 +15,7 @@ Usage:
   python tools/build_index.py            # build dist/
   python tools/build_index.py --check    # validate only (PR gate); non-zero exit on any error
 """
-import os, sys, json, hashlib, zipfile, datetime
+import os, sys, json, hashlib, zipfile
 
 OWNER = "Leonana69"
 REPO = "TypePet-Commands"
@@ -246,10 +246,12 @@ def main():
 
     entries.sort(key=lambda e: e["id"])
     os.makedirs(DIST, exist_ok=True)
+    # No timestamp here on purpose: the output must be byte-deterministic so a re-run with unchanged source
+    # produces an identical index.json. Otherwise the CI publish would see a "change" every run and commit a
+    # regenerated dist back to main, putting the remote ahead and forcing a pull/merge on the next push.
     index = {
         "schemaVersion": 1,
         "indexTag": "main",
-        "generatedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "commands": entries,
     }
     with open(os.path.join(DIST, "index.json"), "w", encoding="utf-8") as f:
