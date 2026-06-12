@@ -38,7 +38,7 @@ say("You rolled a " + n + "!");
   "author": "your-github-username",
   "license": "GPL-3.0-or-later",
   "tags": ["fun", "rng"],
-  "minAppVersion": "1.0.0",
+  "minAppVersion": "0.1.0",
   "official": false
 }
 ```

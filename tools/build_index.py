@@ -262,7 +262,7 @@ def main():
         json.dump(index, f, indent=2)
         f.write("\n")
     with open(os.path.join(DIST, "latest.json"), "w", encoding="utf-8") as f:
-        json.dump({"indexTag": "main", "minClientForIndex": "1.0.0"}, f, indent=2)
+        json.dump({"indexTag": "main", "minClientForIndex": "0.1.0"}, f, indent=2)
         f.write("\n")
     print(f"Wrote dist/index.json ({len(entries)} commands).")
 

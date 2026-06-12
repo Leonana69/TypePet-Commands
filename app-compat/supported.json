@@ -1,8 +1,8 @@
 {
   "_comment": "Capability matrix per MaplePet release. CI uses it to reject a command whose kind / script API / manifest key exceeds what its claimed minAppVersion supports. Add a block when a release adds a capability.",
-  "latestAppVersion": "1.0.0",
+  "latestAppVersion": "0.1.0",
   "releases": {
-    "1.0.0": {
+    "0.1.0": {
       "kinds": ["text", "clipboard", "image", "link", "prompt", "pet", "script"],
       "scripting": true,
       "scriptApis": [

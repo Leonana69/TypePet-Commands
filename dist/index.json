@@ -16,7 +16,7 @@
         "clipboard",
         "macro"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": false,
       "requiresNetwork": false,
       "requiresChat": false,
@@ -28,7 +28,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/asc/asc-1.0.0.zip",
         "bytes": 343,
-        "sha256": "917d4ddc34503a8d42a7447e46a58a8417ec2ff64f5766ee957bf3288e555f6c",
+        "sha256": "4ddfd761c07146e6456db7d55e2a55cd9c2bf5f335b20bb2e6b234220d474124",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/asc/asc-1.0.0.zip"
       }
     },
@@ -46,7 +46,7 @@
         "guide",
         "image"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": false,
       "requiresNetwork": false,
       "requiresChat": false,
@@ -58,7 +58,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/esfera/esfera-1.0.0.zip",
         "bytes": 130998,
-        "sha256": "5b8f04411f8dc2a57ba0f1da75fd84bb1ebac5bce9f383760c6d56e33bbf85b0",
+        "sha256": "f40bceb47ba25db218cafc4e92122f1c20869f033b8d45537fd694f73723e1c8",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/esfera/esfera-1.0.0.zip"
       }
     },
@@ -76,7 +76,7 @@
         "prompt",
         "oracle"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": false,
       "requiresNetwork": false,
       "requiresChat": true,
@@ -88,7 +88,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/fortune/fortune-1.0.0.zip",
         "bytes": 2163,
-        "sha256": "9c0996dcc18b3c390834a0ddee95fbde2698775da9dd101e9f40c1bc243c745e",
+        "sha256": "f6a62625509ad0b9055365722c8f0453e7520ff3d56077337ac4ab965cead1bc",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/fortune/fortune-1.0.0.zip"
       }
     },
@@ -106,7 +106,7 @@
         "prompt",
         "news"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": false,
       "requiresNetwork": false,
       "requiresChat": true,
@@ -118,7 +118,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/maintain/maintain-1.0.0.zip",
         "bytes": 1458,
-        "sha256": "701453811ac4e63235a89a86546882f3e4e05233db5ff549a68f8b08d2bdfa9e",
+        "sha256": "21829f7dcda4e6ef764ef1538d19b4ebad417d8c3c1841783044ecd979e5b51a",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/maintain/maintain-1.0.0.zip"
       }
     },
@@ -137,7 +137,7 @@
         "script",
         "network"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": true,
       "requiresNetwork": true,
       "requiresChat": false,
@@ -154,7 +154,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/rank/rank-1.0.0.zip",
         "bytes": 16068,
-        "sha256": "64324fdc1f75aea2c3375d502cc384955b0028157c044c3a01f04e99fe11f00c",
+        "sha256": "50b87959ff50fe0ecc389db2df1e04a4988a692c30a7e95cee595ab337c94a6d",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/rank/rank-1.0.0.zip"
       }
     },
@@ -172,7 +172,7 @@
         "clipboard",
         "macro"
       ],
-      "minAppVersion": "1.0.0",
+      "minAppVersion": "0.1.0",
       "requiresScripting": false,
       "requiresNetwork": false,
       "requiresChat": false,
@@ -184,7 +184,7 @@
       "download": {
         "url": "https://raw.githubusercontent.com/Leonana69/TypePet-Commands/main/dist/commands/ssc/ssc-1.0.0.zip",
         "bytes": 343,
-        "sha256": "82dbbc3204343bad59f647ed8ba10ca15a5a3e9551f3409440e84a49f741829e",
+        "sha256": "8f12d8ba646a958722a3c57371a3d57a994f583473b7a67303b73938ff93e254",
         "fallbackUrl": "https://cdn.jsdelivr.net/gh/Leonana69/TypePet-Commands@main/dist/commands/ssc/ssc-1.0.0.zip"
       }
     }
