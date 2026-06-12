@@ -1,6 +1,6 @@
 # TypePet-Commands
 
-The community **command hub** for [MaplePet](https://github.com/Leonana69/MaplePet) — the desktop pet.
+The community **command hub** for [TypePet](https://github.com/Leonana69/TypePet) — the desktop pet.
 Browse and one-click install these commands from inside the app (tray → **Browse hub…**).
 
 A "command" is a small slash-command for the pet (e.g. `/roll`, `/symbols`). Each lives in one folder
@@ -9,7 +9,7 @@ CI generates the registry the app reads (`dist/index.json`) and one install-read
 
 ## Install a command
 
-In MaplePet: tray icon → **Browse hub…**, find a command, click **Install**. Script commands install
+In TypePet: tray icon → **Browse hub…**, find a command, click **Install**. Script commands install
 **disabled** and request network access only after you approve it — review them first.
 
 ## Publish a command
@@ -38,6 +38,6 @@ push and fails if it's stale; it never rewrites `dist/` itself, so the remote ne
 
 ## License
 
-Commands are distributed under [GPL-3.0-or-later](LICENSE), matching MaplePet. By submitting a command
+Commands are distributed under [GPL-3.0-or-later](LICENSE), matching TypePet. By submitting a command
 you assert it is your own work (or appropriately licensed) and grant distribution here. No MapleStory /
 Nexon assets, no links to private servers — see [CONTRIBUTING.md](CONTRIBUTING.md).
